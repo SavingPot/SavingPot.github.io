@@ -1,0 +1,85 @@
+body {
+    background-color: #e6eff4;
+    margin: 0%;
+	padding: 0%;
+	text-shadow: 0 2px 7.5px rgba(0, 0, 0, 25%);
+}
+
+.scriptText {
+	color: rgb(0, 255, 34);
+	font-size: bold;
+	font-size: 25px;
+}
+
+.divBox {
+	border: 1px solid #bbc2c6;
+	background-color: #dce4e9;
+	border-radius: 20px 20px 20px 20px;
+}
+
+.center {
+    text-align: center;
+}
+
+.splitLine {
+	width: 100%;
+	border: 1px solid rgb(168, 168, 168);
+}
+
+
+
+.json-object {
+	color: #239ff8;
+}
+.json-string {
+	color: #eb9472;
+}
+.json-floatint {
+	color: #7ed846;
+}
+
+
+
+.separateBox {
+	border-radius: 12px;
+	/* border-style: solid; */
+	border: 5;
+	width: 90%;
+	align-self: center;
+	border-color: gray;
+}
+
+#rcorners1 {
+    border-radius: 25px;
+    background: #8AC007;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+}
+
+#Webtop {
+	width: 100%;
+	height: 35px;
+	background: #0bf;
+	border-radius: 0 0 20px 20px;
+	position: fixed;
+	top: 0;
+	box-shadow: 0 2px 7.5px rgba(0, 0, 0, 25%);
+	opacity: 0.8;
+	/* filter: blur(3px); */
+	/* backdrop-filter: blur(300px);
+	-webkit-backdrop-filter: blur(300px); */
+}
+
+#Webtop b[type="Webname"] {
+	font-size: 20px;
+	position: absolute;
+	top: 25px;
+	margin-left: 25px;
+}
+#Webtop-Menu {
+	position: fixed;
+	width: 100%;
+	top: 50px;
+	right: 100%;
+}
